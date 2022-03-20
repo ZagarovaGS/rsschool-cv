@@ -1,19 +1,40 @@
 #Zagarova Gulnara
-----------------------------------------------------------------------------------------------------------------------------------------------------
+
 ##Contacts:
  *[Telegram:](@zagarova)
  *[Phone number](+79274057106)
  *[Email](n459sverk@gmail.com)
---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ##Profile
  I started learning programming with C++. Protected the project. It was very interesting, and I decided to study other programming languages.I am literate and stress resistant. I have extensive experience in self-employment in the field of entrepreneurship.
------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
 
 ##Skils:
 HTML & CSS  JS  React C++ git  TypeScript  SQL queries  Regular expressions  ESLint 
--------------------------------------------------------------------------------------------------------------------------------------------------------
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
+##Code example
+
+```
+const isPositiveNumber = (value) => typeof value === 'number' && value >= 0;
+
+const getRandomBetween = (min, max, dec) => {
+  if (
+    !isPositiveNumber(min) ||
+    !isPositiveNumber(max) ||
+    !isPositiveNumber(dec)
+  ) {
+    throw new Error('Неверный тип аргументов');
+  }
+
+  const pow = Math.pow(10, dec);
+  const result = Math.round((Math.random() * (max - min) + min) * pow) / pow;
+
+  return result;
+};
+
+```
+
 ##Courses
 
 *Java Script.
@@ -26,7 +47,8 @@ HTML & CSS  JS  React C++ git  TypeScript  SQL queries  Regular expressions  ESL
 *Fundamentals of front-end development at Innopolis University 
 Start Date Oct, 2021  End Date Dec,2021
 *Now stadding course React at HTML Academy
--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ##Projects Links
 
 [GitHub](https://github.com/ZagarovaGS/1776227-keksobooking-23) 
